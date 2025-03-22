@@ -1,0 +1,19 @@
+:root {
+  --fonte-principal: "ADLaM Display", system-ui;  
+  --fonte-secundaria: "Sora", sans-serif;
+  --cor-backgrount: #070118;
+  --branco: #fff;
+  --preto: #000;
+  --texto-secundario: #31A8FF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--cor-backgrount);
+}
+
