@@ -20,9 +20,9 @@ const SessaoContainer = styled.section`
 export default function SessaoDois() {
   return (
     <SessaoContainer>
-        <img src={praia} alt="foto de homem descendo para a praia" />
-        <img src={casamento} alt="foto de casamento" />
-        <img src={montanha} alt="foto de montanha" />
+        <img loading='lazy' src={praia} alt="foto de homem descendo para a praia" />
+        <img loading='lazy' src={casamento} alt="foto de casamento" />
+        <img loading='lazy' src={montanha} alt="foto de montanha" />
     </SessaoContainer>
   )
 }

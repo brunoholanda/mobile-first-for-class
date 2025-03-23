@@ -13,7 +13,7 @@ const SessaoContainer = styled.section`
 
     .imagemGrande {
         width: 100%;
-        max-width: 100vw;
+        max-width: 370px;
         height: 330px;
     }
 
@@ -67,19 +67,19 @@ const SessaoContainer = styled.section`
 export default function SessaoUm() {
     return (
         <SessaoContainer>
-            <img className='imagemGrande' src={foto} alt="imagem com mosaico de fotos na praia" />
+            <img className='imagemGrande' loading='lazy' src={foto} alt="imagem com mosaico de fotos na praia" />
             <h2>Você receberá mais de
                 100 presets profissionais
                 para editar com 1 clique
             </h2>
             <div className='lista'>
-                <p><img src={check} alt="icone de check" />102 presets para <span>ANDROID</span></p>
-                <p><img src={check} alt="icone de check" />102 presets para <span>IPHONE</span></p>
-                <p><img src={check} alt="icone de check" />102 presets para <span>COMPUTADOR</span></p>
-                <p><img src={check} alt="icone de check" />Tutorial de <span>INSTALAÇÃO</span></p>
-                <p><img src={check} alt="icone de check" />Suporte  via <span>WHATSAPP</span></p>
-                <p><img src={check} alt="icone de check" />Acesso <span>VITALÍCIO + 2 BÔNUS</span></p>
-                <p><img src={check} alt="icone de check" />Área de membros  <span>PREMIUM</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />102 presets para <span>ANDROID</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />102 presets para <span>IPHONE</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />102 presets para <span>COMPUTADOR</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />Tutorial de <span>INSTALAÇÃO</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />Suporte  via <span>WHATSAPP</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />Acesso <span>VITALÍCIO + 2 BÔNUS</span></p>
+                <p><img loading='lazy' src={check} alt="icone de check" />Área de membros  <span>PREMIUM</span></p>
             </div>
             <h2>
                 Veja alguns exemplos de
@@ -87,7 +87,7 @@ export default function SessaoUm() {
                 Presets
             </h2>
 
-            <img className='imagemSeta' src={setas} alt="icone de seta" />
+            <img className='imagemSeta' loading='lazy' src={setas} alt="icone de seta" />
         </SessaoContainer>
     )
 }
