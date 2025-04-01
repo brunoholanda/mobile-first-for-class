@@ -1,12 +1,70 @@
-# React + Vite
+# 📱 Projeto Pagina de Vendas Mobile First
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido com **React + Vite**, utilizando **Styled Components** para estilização e seguindo a abordagem **Mobile First** para garantir uma ótima experiência em dispositivos móveis.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Styled Components](https://styled-components.com/)
+- [JavaScript / TypeScript] (escolha o que estiver usando)
+- [ESLint + Prettier] (caso use)
+- [React Router Dom] (caso use rotas)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Estrutura do Projeto
+
+```bash
+├── public/
+├── src/
+│   ├── assets/            # Imagens e arquivos estáticos
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Páginas da aplicação
+│   ├── styles/            # Estilos globais e temas
+│   ├── App.jsx            # Componente principal
+│   └── main.jsx           # Ponto de entrada da aplicação
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 📦 Como rodar o projeto localmente
+
+#### Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/mobile-first-for-class .git
+```
+#### Acesse a pasta
+```bash
+cd mobile-first-for-class 
+```
+#### Instale as dependências
+```bash
+npm install
+```
+#### Rode o projeto
+```bash
+npm run dev
+```
+---
+
+## ✨ Funcionalidades
+
+- Interface responsiva (Mobile First)
+- Componentes reutilizáveis 
+- Estrutura limpa e organizada
+-(Adicione mais conforme for implementando)
+
+## 📸 Imagens do Sistema
+![image](https://github.com/user-attachments/assets/7c16536e-c6e0-47d6-b6e5-15cecaed7216)
+
+### Menu Hamburguer animado aberto
+![image](https://github.com/user-attachments/assets/60c4ed00-137b-4d2d-b995-f234f22b7122)
+
